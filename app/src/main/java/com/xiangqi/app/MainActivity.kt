@@ -38,6 +38,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun initEngine() {
         val engineDir = EngineHelper.prepareEngine(this)
+        if (engineDir == null) {
+            binding.statusText.text = getString(R.string.engine_error)
+            return
+        }
         // 最强难度：每步思考 4 秒
         engine = UciEngine(engineDir, movetimeMs = 4000)
         engineReady = engine?.start() == true
