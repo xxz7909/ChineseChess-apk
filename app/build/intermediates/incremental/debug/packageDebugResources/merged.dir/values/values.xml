@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="board_line">#2c1810</color>
+    <color name="board_wood">#8B4513</color>
+    <color name="highlight">#c9a227</color>
+    <color name="last_move">#4a7c59</color>
+    <color name="piece_black">#1b1b1b</color>
+    <color name="piece_red">#c62828</color>
+    <string name="app_name">象棋 · 人机对战</string>
+    <string name="black_win">黑胜</string>
+    <string name="draw">和棋</string>
+    <string name="engine_error">引擎未就绪，请将 Pikafish 放入 assets</string>
+    <string name="new_game">新对局</string>
+    <string name="red_win">红胜</string>
+    <string name="thinking">思考中…</string>
+    <string name="your_turn">轮到你走</string>
+    <style name="Theme.Xiangqi" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">#1a1a1a</item>
+        <item name="android:windowBackground">#0d0d0d</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimary">#c9a227</item>
+    </style>
+</resources>

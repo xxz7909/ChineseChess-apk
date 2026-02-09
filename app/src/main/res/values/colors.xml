@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="board_wood">#8B4513</color>
+    <color name="board_line">#2c1810</color>
+    <color name="piece_red">#c62828</color>
+    <color name="piece_black">#1b1b1b</color>
+    <color name="highlight">#c9a227</color>
+    <color name="last_move">#4a7c59</color>
+</resources>

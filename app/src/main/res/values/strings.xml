@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">象棋 · 人机对战</string>
+    <string name="thinking">思考中…</string>
+    <string name="your_turn">轮到你走</string>
+    <string name="red_win">红胜</string>
+    <string name="black_win">黑胜</string>
+    <string name="draw">和棋</string>
+    <string name="new_game">新对局</string>
+    <string name="engine_error">引擎未就绪，请将 Pikafish 放入 assets</string>
+</resources>

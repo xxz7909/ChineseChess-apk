@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+color board_line
+color board_wood
+color highlight
+color last_move
+color piece_black
+color piece_red
+drawable ic_launcher
+drawable ic_launcher_foreground
+id board
+id btnNewGame
+id statusText
+layout activity_main
+mipmap ic_launcher
+string app_name
+string black_win
+string draw
+string engine_error
+string new_game
+string red_win
+string thinking
+string your_turn
+style Theme.Xiangqi
