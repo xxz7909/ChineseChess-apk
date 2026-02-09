@@ -9,6 +9,8 @@ build/
 *.ipr
 *.iws
 out/
+.gradle/*
+build/
 
 # Kotlin/Java
 *.class
