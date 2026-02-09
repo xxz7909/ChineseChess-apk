@@ -1,0 +1,51 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Android Studio/IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Kotlin/Java
+*.class
+
+# Local configuration
+local.properties
+
+# Keystore files
+*.jks
+*.keystore
+
+# Logs
+*.log
+
+# Android build artifacts
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Generated files
+**/generated/
+**/captures/
+
+# NDK
+**/obj/
+
+# Navigation editor temp files
+**/navigation_json/
+
+# Lint
+**/lint*/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
